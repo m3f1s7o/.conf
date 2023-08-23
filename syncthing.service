@@ -1,0 +1,11 @@
+[Unit]
+Description: Syncthing service
+
+[Service]
+User=j4m3s
+ExecStart=/sbin/syncthing --no-browser
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
