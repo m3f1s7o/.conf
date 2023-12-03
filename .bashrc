@@ -16,3 +16,9 @@ PS1='\[\e[38;5;229m\]╔═[\[\e[0;1m\]\u\[\e[38;5;228m\]@\[\e[39m\]\h\[\e[0;38;
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# saved dirs
+alias cd17='cd ~/programming/ieeextreme/17/'
+alias cd17s='cd ~/programming/ieeextreme/17/second_chance'
+alias cdpy='cd ~/programming/python/'
+alias cdanim='cd /home/kraken/programming/python/semII/animals/'
